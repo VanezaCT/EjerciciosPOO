@@ -4,7 +4,7 @@ $age = 6;
 
 
 define('LOGO_URL', 'https://es.m.wikipedia.org/wiki/Archivo:PHP-logo.svg');
-
+//match es mejor que utilizar if
 $outputAge = match(true){
  $age < 5 => "eres un bebe , $name",
  $age < 18 => "eres un adolescente, $name",
